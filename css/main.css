@@ -28,6 +28,9 @@ a#viewSource {
   padding: 1em 0 0 0;
 }
 
+div#social {
+  display: flex;
+}
 div#social a {
   margin: 0 1em 0 0;
 }
@@ -46,7 +49,6 @@ article {
   display: flex;
   flex-direction: column;
   max-width: 50em;
-  border-bottom: 1px solid #ddd;
 }
 
 body {
@@ -70,7 +72,7 @@ figcaption {
 }
 
 figure {
-  margin: 1em 0 1em 0;
+  margin: 1em 0 0 0;
 }
 
 footer {
@@ -82,7 +84,7 @@ h1 {
   font-family: 'Roboto condensed', sans-serif;
   font-size: 6vw;
   font-weight: 500;
-  margin: 0 0 1em 0;
+  margin: 0 0 0.6em 0;
 }
 
 header:hover h1 {
@@ -94,11 +96,12 @@ h2 {
   color: #bb021e;
   font-family: 'Roboto condensed', sans-serif;
   font-size: 5vw;
-  margin: 0 0 1em 0;
-  padding: 0 0 1em 0;
+  margin: 0 0 0.4em 0;
+  padding: 0 0 0.1em 0;
 }
 
 img {
+  width: 100%;
   max-width: 100%;
 }
 
